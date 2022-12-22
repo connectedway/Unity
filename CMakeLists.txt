@@ -159,10 +159,10 @@ install(TARGETS   ${PROJECT_NAME}
 )
 
 ## Target's cmake files: targets export
-install(EXPORT  ${PROJECT_NAME}Targets
-    NAMESPACE   ${PROJECT_NAME}::
-    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
-)
+#install(EXPORT  ${PROJECT_NAME}Targets
+#    NAMESPACE   ${PROJECT_NAME}::
+#    DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/${PROJECT_NAME}
+#)
 
 ## Target's cmake files: config and version config for find_package()
 install(FILES   ${PROJECT_NAME}Config.cmake
