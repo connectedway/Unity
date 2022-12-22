@@ -150,13 +150,13 @@ write_basic_package_version_file(${PROJECT_NAME}ConfigVersion.cmake
 )
 
 ## Target installation
-install(TARGETS   ${PROJECT_NAME}
-    EXPORT        ${PROJECT_NAME}Targets
-    ARCHIVE       DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    LIBRARY       DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME}
-    COMPONENT     library
-)
+#install(TARGETS   ${PROJECT_NAME}
+#    EXPORT        ${PROJECT_NAME}Targets
+#    ARCHIVE       DESTINATION ${CMAKE_INSTALL_LIBDIR}
+#    LIBRARY       DESTINATION ${CMAKE_INSTALL_LIBDIR}
+#    PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/${PROJECT_NAME}
+#    COMPONENT     library
+#)
 
 ## Target's cmake files: targets export
 #install(EXPORT  ${PROJECT_NAME}Targets
